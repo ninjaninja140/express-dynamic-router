@@ -1,22 +1,33 @@
 {
-  "name": "express-dynamic-router-creator",
-  "version": "2.0.2",
-  "description": "With this module you will be able to write dynamic created routing with express.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/enteresanlikk/express-dynamic-router-creator"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "path",
-    "routing",
-    "dynamic",
-    "dynamic routing",
-    "dynamic router creator",
-    "one file routing with express"
-  ],
-  "author": "Bilal Demir",
-  "license": "ISC"
+	"name": "@ninjaninja140/express-dynamic-router",
+	"version": "1.0.0",
+	"description": "With this module you will be able to write dynamic created routing with express.",
+	"main": "index.js",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ninjaninja140/express-dynamic-router-ts"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"path",
+		"routing",
+		"dynamic",
+		"dynamic routing",
+		"dynamic router creator",
+		"one file routing with express"
+	],
+	"author": "Bilal Demir",
+	"license": "ISC",
+	"packageManager": "yarn@4.2.2",
+	"devDependencies": {
+		"@bracketed/typescript-config": "^4.4.0",
+		"@types/express": "^4",
+		"@types/node": "^20.12.12",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"express": "^4.19.2"
+	}
 }
